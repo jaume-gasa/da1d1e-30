@@ -13,14 +13,11 @@ class OperacionesCalculadora:
         pass
 
     def dividir(self, a, b):
-        resultado = 0
-
         if b == 0:
             return None
-        else:
-            resutlado = a / b
-        
-        return resultado
+       
+        return a / b
+
 
     # --- Operaciones Avanzadas ---
     def potencia(self, base, exponente):
